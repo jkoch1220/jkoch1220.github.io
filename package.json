@@ -4,8 +4,6 @@
   "private": true,
   "homepage": "https://jkoch1220.github.io",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/jkoch1220/jkoch1220.github.io.git",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
